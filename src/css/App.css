@@ -1,0 +1,59 @@
+body { width: 960px; margin: 0 auto;
+  text-align: center;
+  background: url('/images/Pokedex.png') no-repeat center center fixed;
+}
+
+.list-container {
+  width: 280px;
+  height: 354px;
+  position: relative;
+  left:-114px;
+  top: 150px;
+  overflow: auto;
+  border: solid black 3px;
+  border-radius: 10px;
+  padding: 10px;
+  float: right;
+}
+
+.case {
+  padding: 2px;
+  width: 50px;
+  height: 50px;
+}
+
+.name {
+  width: 150px;
+  margin: 1px;
+  position: relative;
+  top: -39px;
+  left: 50px;
+  text-align: center;
+}
+.image {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 0px;
+}
+
+.POKEMON {
+  height: 337px;
+  width: 330px;
+  border: 1px solid black;
+  text-align: center;
+  float: left;
+  position: relative;
+  right:-110px;
+  top:160px;
+}
+
+.solo-pic {
+  width: 150px;
+  height: 150px;
+}
+
+.attr {
+  list-style: none;
+  text-align: left;
+}
